@@ -1,0 +1,65 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Request Header Parser Microservice</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        API Project: Request Header Parser Microservice
+      </h1>
+      
+      <h3>
+        User Stories:
+      </h3>
+      <ol>
+        <li>
+          I can get the IP address, preferred languages (from header <span>Accept-Language</span>)
+and system infos (from header <span>User-Agent</span>) for my device.
+        </li>
+      </ol>
+      
+      <h3>
+        Example Usage:
+      </h3>
+      <a href="https://request-header-info.glitch.me/api/whoami" target="_blank">https://request-header-info.glitch.me/api/whoami</a>
+      
+      <h3>
+        Example Output:
+      </h3>
+      <span>{ "ipaddress":"159.20.14.100", "language":"en-GB,en-US",
+        "software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0" }</span>
+    </header>
+
+    <main>
+      
+    </main>
+
+    <footer>
+      Made by <a href="https://www.freecodecamp.org/mukeshangrish" target="_blank">Mukesh K. Angrish</a>
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+
+  </body>
+</html>
